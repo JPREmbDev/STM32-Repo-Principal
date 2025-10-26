@@ -1,0 +1,17 @@
+# Ignorar archivos comunes de build y firmware
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.a
+*.lib
+
+# Ignorar carpetas de IDE/Debug
+Debug/
+Release/
+build/
+.vscode/
+
+# Archivos de proyectos específicos de IDE (ej. .ioc para CubeMX)
+# Si usas IDEs específicos, añade sus archivos de proyecto aquí.
